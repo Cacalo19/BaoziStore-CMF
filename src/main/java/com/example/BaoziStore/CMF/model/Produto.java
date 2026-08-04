@@ -16,7 +16,7 @@ public class Produto {
     private String nome;
     private BigDecimal preco;
     private Boolean estoque;
-
+    private Integer quantidade;
     
     public Produto() {
     }
@@ -52,5 +52,13 @@ public class Produto {
 
     public void setEstoque(Boolean estoque) {
         this.estoque = estoque;
+    }
+    
+    public Integer getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(Integer quantidade) {
+        this.quantidade = quantidade;
     }
 }
